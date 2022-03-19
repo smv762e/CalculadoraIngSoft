@@ -2,7 +2,7 @@
 Feature: Prueba división
   Prueba del método división de la calculadora
    	
-   Scenario Outline: División de valores
+   Scenario Outline: División estandar
     Given Tengo una Calculadora
     When Divido <a> y <b>
     Then El resultado de la división es <value>
